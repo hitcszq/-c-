@@ -1,0 +1,55 @@
+﻿生成启动时间为 2015/3/19 14:17:36。
+     1>项目“C:\Users\zhangqics\Documents\Visual Studio 2013\Projects\softwaredesign\softwaredesign\softwaredesign.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dataclass.cpp main.cpp
+         main.cpp
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\node.h(16): error C2953: “Node”: 类模板已经定义
+                 c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\node.h(3) : 参见“Node”的声明
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\singlylist.h(16): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+                 c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\singlylist.h(28): 参见对正在编译的类 模板 实例化“SinglyList<T>”的引用
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\singlylist.h(16): error C2059: 语法错误:“)”
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\singlylist.h(88): error C2244: “SinglyList<T>::insert”: 无法将函数定义与现有的声明匹配
+                 定义
+                 'Node *SinglyList::insert(int,T)'
+                 现有声明
+                 'Node *SinglyList<T>::insert(T)'
+                 'Node *SinglyList<T>::insert(int)'
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\singlylist.h(130): error C2801: “operator =”必须是非静态成员
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(86): error C3646: “：liPolynomial”: 未知重写说明符
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(86): error C2061: 语法错误: 标识符“terms”
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(86): error C2091: 函数返回函数
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(99): error C2512: “Node”: 没有合适的默认构造函数可用
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(100): error C2227: “->exp”的左边必须指向类/结构/联合/泛型类型
+                 类型是“T”
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(101): error C2227: “->coef”的左边必须指向类/结构/联合/泛型类型
+                 类型是“T”
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(102): error C2819: “Node”类型没有重载成员“operator ->”
+                 c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\node.h(3) : 参见“Node”的声明
+                 是否改用“.”?
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(102): error C2232: “->Node<T>::next”: 左操作数有“class”类型，使用“.”
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(107): error C2556: “Polynomial Polynomial::operator +(Polynomial &)”: 重载函数与“Polynomial &Polynomial::operator +(Polynomial &)”只是在返回类型上不同
+                 c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(90) : 参见“Polynomial::operator +”的声明
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(107): error C2040: “Polynomial::operator +”:“Polynomial (Polynomial &)”与“Polynomial &(Polynomial &)”的间接寻址级别不同
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(108): error C2133: “q”: 未知的大小
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(108): error C2512: “Node”: 没有合适的默认构造函数可用
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(108): error C2133: “c”: 未知的大小
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(108): error C2133: “d”: 未知的大小
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(110): error C2440: “=”: 无法从“Node<T> *”转换为“Node *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(111): error C2582: “operator =”函数在“Node”中不可用
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(112): error C2582: “operator =”函数在“Node”中不可用
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(113): error C2678: 二进制“!=”: 没有找到接受“Node”类型的左操作数的运算符(或没有可接受的转换)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\system_error(426): 可能是“bool std::operator !=(const std::error_condition &,const std::error_code &) throw()”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\system_error(419): 或       “bool std::operator !=(const std::error_code &,const std::error_condition &) throw()”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(522): 或       “bool std::operator !=(const std::exception_ptr &,std::nullptr_t)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(517): 或       “bool std::operator !=(std::nullptr_t,const std::exception_ptr &)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(512): 或       “bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &)”
+                 尝试匹配参数列表“(Node, int)”时
+     1>c:\users\zhangqics\documents\visual studio 2013\projects\softwaredesign\softwaredesign\polynomial.h(113): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         dataclass.cpp
+         正在生成代码...
+     1>已完成生成项目“C:\Users\zhangqics\Documents\Visual Studio 2013\Projects\softwaredesign\softwaredesign\softwaredesign.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.40

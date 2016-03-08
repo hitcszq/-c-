@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "舞伴", "舞伴\舞伴.vcxproj", "{1A0E34C5-13EB-4DD2-9EE9-58EF9A8D50CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A0E34C5-13EB-4DD2-9EE9-58EF9A8D50CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A0E34C5-13EB-4DD2-9EE9-58EF9A8D50CC}.Debug|Win32.Build.0 = Debug|Win32
+		{1A0E34C5-13EB-4DD2-9EE9-58EF9A8D50CC}.Release|Win32.ActiveCfg = Release|Win32
+		{1A0E34C5-13EB-4DD2-9EE9-58EF9A8D50CC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
